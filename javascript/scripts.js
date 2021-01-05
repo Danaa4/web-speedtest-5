@@ -17,4 +17,5 @@ function greet(name) {
     }
    }
    
-   sayHello()
+  greet()
+  greet('dana')
