@@ -7,4 +7,14 @@
  * - name إن استقبلت اسم أو "Hello <name>" تطبع
  */
 
-function greet(name) {}
+function greet(name) {
+
+    if(name == null){
+        console.log(`hello`)
+    }
+    else {
+        console.log(`hello ${name}`)
+    }
+   }
+   
+   sayHello()
